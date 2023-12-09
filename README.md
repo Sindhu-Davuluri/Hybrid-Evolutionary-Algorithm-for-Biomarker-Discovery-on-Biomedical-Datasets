@@ -1,5 +1,5 @@
 # MEvA-LightGBM
-An open source biomarker discovery tool based on a multi-objective Evolutionary algorithm and the LightGBM Classifier. Benchmarked on Ornics dataset. With MEvA-LightGBM, the performance of the LightGBM Classifiers is enhanced, achieving better overall performance and/or the simplicity of the final models 
+An Hybrid biomarker discovery tool based on a multi-objective Evolutionary algorithm and the LightGBM Classifier. Benchmarked on Ornics dataset. With MEvA-LightGBM, the performance of the LightGBM Classifiers is enhanced, achieving better overall performance and/or the simplicity of the final models 
 
 <h2>Flowchart</h2>
 <img src="representation.png">
