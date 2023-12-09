@@ -32,6 +32,11 @@ An open source biomarker discovery tool based on a multi-objective Evolutionary 
     <td>1.7.3</td>
     <td>https://pypi.org/project/xgboost/</td>
   </tr>
+ <tr>
+    <td>LightGBM</td>
+    <td>4.1.0.9.9</td>
+   <td>https://lightgbm.readthedocs.io/en/stable/</td>
+  </tr>
   <tr>
     <td>Numpy</td>
     <td>1.21.5</td>
