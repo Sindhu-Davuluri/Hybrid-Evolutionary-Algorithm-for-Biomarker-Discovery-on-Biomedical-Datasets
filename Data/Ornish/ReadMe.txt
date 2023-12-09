@@ -1,4 +1,4 @@
-In this folder there are 3 different files for the data used in the present work to produce the results of the MEvA-X tool.
+In this folder there are 3 different files for the data used in the present work to produce the results of the MEvA-LGBM tool.
 
 In this directory you can find the following:
 - diet_dataset.txt contains the data normalized, with a preprocessing step of removing the batch effect from the different experiments. In addition, it containss the Age [float], Gender(Sex) [binary], COPD [binary], and Diabetes [binary] of the samples as they are in the original dataset.
