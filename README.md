@@ -1,6 +1,5 @@
 # MEvA-LightGBM
-An open source biomarker discovery tool based on a multi-objective Evolutionary algorithm and the XGBoost Classifier.
-Benchmarked on 2 datasets. One omics and one clinical. With MEvA-X the performance of the XGBoost Classifiers improved their overall performance and/or the simplicity of the final models. 
+An open source biomarker discovery tool based on a multi-objective Evolutionary algorithm and the LightGBM Classifier. Benchmarked on 2 datasets: one omics and one clinical. With MEvA-LightGBM, the performance of the LightGBM Classifiers is enhanced, achieving better overall performance and/or the simplicity of the final models 
 
 <h2>Flowchart</h2>
 <img src="representation.png">
@@ -68,9 +67,9 @@ Benchmarked on 2 datasets. One omics and one clinical. With MEvA-X the performan
 <h1> Tutorial </h1>
 <p>A tutorial of how to use the tool in the form of a notebook can be found in the directory <code>Tutorial</code>.<br></p>
 
-<h2>Example of calling MEvA-X from terminal:</h2>
+<h2>Example of calling MEvA-LightGBM from terminal:</h2>
 
-<h4>Example of calling MEvA-X from terminal:</h4>
+<h4>Example of calling MEvA-LightGBM from terminal:</h4>
 <p>This script is up and running and there is a detailed tutorial on the directory <code>Tutorial</code>.</p>
 
 ```
@@ -148,8 +147,5 @@ python MEvA-LightGBM.py --dataset_path ./Data/Ornish/diet_dataset.txt --labels_p
 
 ```
 python MEvA-LightGBM.py
-```
-<h4>Calling the script for the OPERA study dataset</h4>
-<p>It has minor differences on the way it reads the data, because the OPERA labels file contains the name of each samlpe as headers.</p>
 ```
 
