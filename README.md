@@ -74,7 +74,7 @@ Benchmarked on 2 datasets. One omics and one clinical. With MEvA-X the performan
 <p>This script is up and running and there is a detailed tutorial on the directory <code>Tutorial</code>.</p>
 
 ```
-python MEvA-X.py --dataset_path ./Data/Ornish/diet_dataset.txt --labels_path ./Data/Ornish/diet_labels.txt --output_dir ./Data/Ornish/Results --K 5 --G 30 --P 60 --FS_dir ./Data/Ornish/FS_methods --goal_sig_path ./Data/Ornish/metrics_weights.txt --verbose False --plot False
+python MEvA-LightGBM.py --dataset_path ./Data/Ornish/diet_dataset.txt --labels_path ./Data/Ornish/diet_labels.txt --output_dir ./Data/Ornish/Results --K 5 --G 30 --P 60 --FS_dir ./Data/Ornish/FS_methods --goal_sig_path ./Data/Ornish/metrics_weights.txt --verbose False --plot False
 ```
 
 <p>The parameters of the algorithm can be changed directly through the script in the __main__ section for the version V1.0.0.
@@ -147,12 +147,9 @@ python MEvA-X.py --dataset_path ./Data/Ornish/diet_dataset.txt --labels_path ./D
 <h4>Calling the general version of the script</h4>
 
 ```
-python MEvA-X_V1.0.0.py
+python MEvA-LightGBM.py
 ```
 <h4>Calling the script for the OPERA study dataset</h4>
 <p>It has minor differences on the way it reads the data, because the OPERA labels file contains the name of each samlpe as headers.</p>
-
-```
-python MEvA-X_V1.0.0_opera.py
 ```
 
